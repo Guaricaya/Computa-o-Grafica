@@ -14,9 +14,9 @@ let segRadius, minRadius, horaRadius;
 function setup() {
     createCanvas(900, 700);
 
-    segRadius = radius * 0.9;
-    minRadius = radius * 0.7;
-    horaRadius = radius * 0.5;
+    segRadius = radius * 0.7;
+    minRadius = radius * 0.5;
+    horaRadius = radius * 0.3;
 }
 
 function draw() {
