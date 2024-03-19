@@ -39,7 +39,7 @@ function draw() {
         stroke(0);
         if (i % 5 === 0) {
             strokeWeight(4)
-            line(x * 0.9, y * 0.9, x, y);
+            line(x * 0.92, y * 0.92, x, y);
             let num = i === 0 ? 12 : i / 5;
             fill(0);
             noStroke()
